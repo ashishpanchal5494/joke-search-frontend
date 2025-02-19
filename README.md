@@ -29,7 +29,7 @@ Make sure you have the following installed:
 
 ```sh
 git clone https://github.com/ashishpanchal5494/joke-search-frontend.git
-cd joke-search-frontend
+cd joke-search-frontend-main
 ```
 
 ### 🔥 2. Install Dependencies
@@ -37,17 +37,17 @@ cd joke-search-frontend
 #### Frontend
 
 ```sh
-cd joke-search-frontend
+cd joke-search-frontend-main
 npm install   # or yarn install
 ```
 
 ````
 
-### 🚀 5. Start the Project
-#### Run Backend Server
+### 🚀 3. Start the Project
+#### Run forntend app
 ```sh
-cd backend
-npm start  # Runs on http://localhost:5000
+cd joke-search-frontend
+npm run dev  # Runs on localhost
 ````
 
 ---
